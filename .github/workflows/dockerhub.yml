@@ -1,6 +1,7 @@
 
 name: Build DockerHub
 on:
+  workflow_dispatch:
   push:
     branches:
       - '*'
