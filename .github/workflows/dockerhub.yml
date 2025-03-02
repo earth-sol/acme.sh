@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DOCKER_IMAGE: neilpang/acme.sh
+  DOCKER_IMAGE: earthsol/acme.sh
 
 jobs:
   CheckToken:
